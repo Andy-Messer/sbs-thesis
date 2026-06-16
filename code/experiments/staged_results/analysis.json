@@ -1,0 +1,106 @@
+{
+  "n_queries": 50,
+  "sbs_nps_assessors": -14.0,
+  "schemes": {
+    "classic": {
+      "name": "Классический (1 судья, 1 промпт)",
+      "agreement": 0.294,
+      "n_valid": 17,
+      "sbs_nps": -22.0,
+      "ci_judge": [
+        -38.0,
+        -6.0
+      ],
+      "ci_delta_vs_assessors": [
+        -34.0,
+        18.0
+      ],
+      "h1_reject_zero": true,
+      "equivalent_to_assessors": false
+    },
+    "multiprompt": {
+      "name": "Multi-prompt (1 судья, 3 промпта)",
+      "agreement": 0.26,
+      "n_valid": 50,
+      "sbs_nps": -30.0,
+      "ci_judge": [
+        -52.0,
+        -6.0
+      ],
+      "ci_delta_vs_assessors": [
+        -46.0,
+        16.0
+      ],
+      "h1_reject_zero": true,
+      "equivalent_to_assessors": false
+    },
+    "cons3": {
+      "name": "Consensus (3 судьи x 3 промпта)",
+      "agreement": 0.22,
+      "n_valid": 50,
+      "sbs_nps": -32.0,
+      "ci_judge": [
+        -54.0,
+        -10.0
+      ],
+      "ci_delta_vs_assessors": [
+        -48.0,
+        12.0
+      ],
+      "h1_reject_zero": true,
+      "equivalent_to_assessors": false
+    },
+    "cons4": {
+      "name": "Consensus (4 судьи x 3 промпта)",
+      "agreement": 0.34,
+      "n_valid": 50,
+      "sbs_nps": -48.0,
+      "ci_judge": [
+        -68.0,
+        -28.0
+      ],
+      "ci_delta_vs_assessors": [
+        -64.0,
+        -4.0
+      ],
+      "h1_reject_zero": true,
+      "equivalent_to_assessors": false
+    }
+  },
+  "h2_pairs": {
+    "multiprompt_vs_classic": {
+      "mean_gain_pp": -5.8,
+      "ci": [
+        -17.6,
+        0.0
+      ],
+      "significant": false
+    },
+    "cons3_vs_multiprompt": {
+      "mean_gain_pp": -4.0,
+      "ci": [
+        -16.0,
+        8.0
+      ],
+      "significant": false
+    },
+    "cons4_vs_cons3": {
+      "mean_gain_pp": 12.0,
+      "ci": [
+        0.0,
+        24.0
+      ],
+      "significant": false
+    },
+    "cons4_vs_classic": {
+      "mean_gain_pp": -0.0,
+      "ci": [
+        -17.6,
+        17.6
+      ],
+      "significant": false
+    }
+  },
+  "delta_margin_pp": 10.0,
+  "verbosity_longer_pref_rate": 0.711
+}

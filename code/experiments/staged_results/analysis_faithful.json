@@ -1,0 +1,87 @@
+{
+  "theta": 0.5,
+  "n_test": 50,
+  "sbs_assessors": -10.0,
+  "per_criterion": {
+    "S": {
+      "relevance": [
+        70,
+        92
+      ],
+      "accuracy": [
+        65,
+        88
+      ],
+      "completeness": [
+        53,
+        73
+      ],
+      "readability": [
+        54,
+        71
+      ]
+    },
+    "C": {
+      "relevance": [
+        92,
+        96
+      ],
+      "accuracy": [
+        88,
+        91
+      ],
+      "completeness": [
+        75,
+        79
+      ],
+      "readability": [
+        69,
+        79
+      ]
+    }
+  },
+  "schemes": {
+    "Классическая": {
+      "n": 50,
+      "agreement": 0.52,
+      "sbs_nps": -16.0,
+      "ci": [
+        -32.0,
+        0.0
+      ],
+      "delta_ci": [
+        -34.0,
+        22.0
+      ],
+      "equiv": false
+    },
+    "Multi-prompt": {
+      "n": 50,
+      "agreement": 0.46,
+      "sbs_nps": -16.0,
+      "ci": [
+        -30.0,
+        -2.0
+      ],
+      "delta_ci": [
+        -34.0,
+        22.0
+      ],
+      "equiv": false
+    },
+    "Consensus l=4": {
+      "n": 50,
+      "agreement": 0.44,
+      "sbs_nps": -26.0,
+      "ci": [
+        -40.0,
+        -14.0
+      ],
+      "delta_ci": [
+        -42.0,
+        10.0
+      ],
+      "equiv": false
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "updates": [
+    {
+      "action": "add_field",
+      "field": {
+        "guid": "ba5ke700-0001-4000-8000-000000000001",
+        "title": "basket",
+        "source": "basket",
+        "calc_mode": "direct",
+        "avatar_id": "e42f4087-6f21-4ae6-9884-bfe82016dd1c",
+        "type": "DIMENSION",
+        "cast": "string",
+        "aggregation": "none",
+        "description": "Measurement / basket discriminator (stream1k, v4, ...)",
+        "hidden": false
+      }
+    },
+    {
+      "action": "add_field",
+      "field": {
+        "guid": "da7e0000-0001-4000-8000-000000000002",
+        "title": "date",
+        "source": "date",
+        "calc_mode": "direct",
+        "avatar_id": "e42f4087-6f21-4ae6-9884-bfe82016dd1c",
+        "type": "DIMENSION",
+        "cast": "string",
+        "aggregation": "none",
+        "description": "Measurement date (basket build/run date)",
+        "hidden": false
+      }
+    }
+  ]
+}

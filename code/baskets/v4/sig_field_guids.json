@@ -1,0 +1,34 @@
+{
+ "summary": {
+  "basket": "48200cd3-ffd3-5ecc-80d1-517694dddb44",
+  "filter": "80be9d52-fc51-53d1-9715-d63a305bea15",
+  "dimension": "9262ad9a-bbbd-560c-ac5a-e74fbeb83453",
+  "value": "7836fba4-da59-5cbf-8a63-a386b9bc41fa",
+  "agent": "68cfaa25-36dc-50be-a115-00e3f37ecc25",
+  "hypothesis": "756c016f-cf2d-5a2c-9cf3-6c817f0e04d1",
+  "metric": "99019c24-f9ef-5e15-b8da-1da5148e21d4",
+  "n_queries": "21d2b9fc-040a-5795-ae6a-0e2dc3fd8105",
+  "point": "718bc2ce-794d-5d55-9c61-e04ed3095dc4",
+  "ci_low": "b12ac124-811d-5c31-aeb2-6d0c0ec5b33b",
+  "ci_high": "e0050b15-1ad7-5254-b7e3-89139b5dca6b",
+  "p_value": "fe70dc8e-e298-5e31-b083-b1a211bfe654",
+  "significant": "015d7834-616b-5ece-a72c-3086424483bc"
+ },
+ "dist": {
+  "basket": "f5ffb8b4-8301-5c37-976f-312b4dd6e153",
+  "filter": "8a58e72b-dc92-57a7-ab14-485066ec08a8",
+  "hypothesis": "b208e49f-5a41-5293-8901-b75584a9b26a",
+  "bin_center": "6f6b6b35-06d3-5d8e-a1bf-5599d119b8c5",
+  "density": "2c136d26-86e2-58f0-99a5-0d762311686b"
+ },
+ "mix": {
+  "basket": "fdc45f0b-a6d7-52b8-81f6-e2c774f594cb",
+  "filter": "de735b2f-0ebc-5977-8df6-305dcbafee04",
+  "dimension": "1e487287-7486-57dd-b408-f08c8843c092",
+  "value": "7aa95874-4bea-58a8-aea6-fabddf290d74",
+  "agent": "ffe0254e-2c59-5981-99bf-3f36af86c08c",
+  "outcome": "217f6932-c8cb-5616-83c0-822384f150b0",
+  "cnt": "e4b40de7-f48b-5482-abaf-2d5215f41ce9",
+  "share": "ba31a473-228c-5397-ac8a-0a2f3895e3b3"
+ }
+}

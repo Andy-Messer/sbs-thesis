@@ -1,0 +1,19 @@
+Traceback (most recent call last):
+  File "/Users/ai-krotov/Claude/Projects/sbs-project-thesis/sbs-thesis/code/experiments/analyze_faithful.py", line 13, in <module>
+    import pandas as pd
+  File "/private/tmp/sbsvenv/lib/python3.14/site-packages/pandas/__init__.py", line 34, in <module>
+    from pandas._config import (
+    ...<6 lines>...
+    )
+  File "/private/tmp/sbsvenv/lib/python3.14/site-packages/pandas/_config/__init__.py", line 19, in <module>
+    from pandas._config import config
+  File "/private/tmp/sbsvenv/lib/python3.14/site-packages/pandas/_config/config.py", line 63, in <module>
+    from pandas._typing import F
+  File "/private/tmp/sbsvenv/lib/python3.14/site-packages/pandas/_typing.py", line 200, in <module>
+    | np.random.Generator
+      ^^^^^^^^^
+  File "/private/tmp/sbsvenv/lib/python3.14/site-packages/numpy/__init__.py", line 718, in __getattr__
+    import numpy.random as random
+  File "/private/tmp/sbsvenv/lib/python3.14/site-packages/numpy/random/__init__.py", line 180, in <module>
+    from . import _bounded_integers, _common, _pickle
+ImportError: dlopen(/private/tmp/sbsvenv/lib/python3.14/site-packages/numpy/random/_bounded_integers.cpython-314-darwin.so, 0x0002): tried: '/private/tmp/sbsvenv/lib/python3.14/site-packages/numpy/random/_bounded_integers.cpython-314-darwin.so' (code signature in <2FC523BF-71EC-3A95-BFE5-053DEB74338A> '/private/tmp/sbsvenv/lib/python3.14/site-packages/numpy/random/_bounded_integers.cpython-314-darwin.so' not valid for use in process: system is shutting down), '/System/Volumes/Preboot/Cryptexes/OS/private/tmp/sbsvenv/lib/python3.14/site-packages/numpy/random/_bounded_integers.cpython-314-darwin.so' (no such file), '/private/tmp/sbsvenv/lib/python3.14/site-packages/numpy/random/_bounded_integers.cpython-314-darwin.so' (code signature in <2FC523BF-71EC-3A95-BFE5-053DEB74338A> '/private/tmp/sbsvenv/lib/python3.14/site-packages/numpy/random/_bounded_integers.cpython-314-darwin.so' not valid for use in process: system is shutting down)

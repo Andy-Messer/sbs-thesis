@@ -1,0 +1,37 @@
+{
+  "sbs_assessors": -10.0,
+  "configs": {
+    "faithful\nsingle": {
+      "agreement": 52.0,
+      "abs_delta": 6.0
+    },
+    "+ multi-\nprompt": {
+      "agreement": 48.0,
+      "abs_delta": 8.0
+    },
+    "+ consensus\nl=4": {
+      "agreement": 50.0,
+      "abs_delta": 0.0
+    },
+    "+ verbosity\ncorr.": {
+      "agreement": 46.0,
+      "abs_delta": 4.0
+    },
+    "+ few-shot": {
+      "agreement": 48.0,
+      "abs_delta": 16.0
+    }
+  },
+  "percrit_base": [
+    94.7,
+    92.1,
+    94.8,
+    97.4
+  ],
+  "percrit_verbosity": [
+    96.8,
+    96.6,
+    97.4,
+    89.5
+  ]
+}

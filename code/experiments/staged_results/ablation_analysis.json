@@ -1,0 +1,62 @@
+{
+  "n": 119,
+  "sbs_assessors": -12.6,
+  "results": {
+    "A_baseline": {
+      "n": 119,
+      "agreement": 0.319,
+      "sbs_nps": -6.7,
+      "ci_judge": [
+        -21.8,
+        8.4
+      ],
+      "delta_ci": [
+        -14.3,
+        26.1
+      ],
+      "equiv": false
+    },
+    "B_faithful": {
+      "n": 96,
+      "agreement": 0.292,
+      "sbs_nps": 1.7,
+      "ci_judge": [
+        -5.0,
+        8.4
+      ],
+      "delta_ci": [
+        -1.7,
+        30.3
+      ],
+      "equiv": false
+    },
+    "C_multiprompt": {
+      "n": 119,
+      "agreement": 0.353,
+      "sbs_nps": 0.0,
+      "ci_judge": [
+        -5.9,
+        5.9
+      ],
+      "delta_ci": [
+        -2.5,
+        27.7
+      ],
+      "equiv": false
+    },
+    "D_consensus": {
+      "n": 118,
+      "agreement": 0.356,
+      "sbs_nps": -1.7,
+      "ci_judge": [
+        -4.2,
+        0.0
+      ],
+      "delta_ci": [
+        -3.4,
+        25.2
+      ],
+      "equiv": false
+    }
+  }
+}

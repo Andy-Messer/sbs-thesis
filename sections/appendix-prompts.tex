@@ -1,0 +1,143 @@
+\chapter*{Приложение A. Тексты промптов судьи}
+\addcontentsline{toc}{chapter}{Приложение A}
+\label{app:prompts}
+
+Все три промпта реализуют одну задачу — попарную оценку ответов
+системы $S$ и конкурента $C$ по четырём критериям чеклиста
+(Relevance $\to$ Accuracy $\to$ Completeness $\to$ Readability).
+Различие — в глубине инструкции и наличии примеров.
+
+\section{Промпт c1\_compact (компактный, zero-shot)}
+\label{app:compact}
+
+Назначение: минимальная инструкция, судья выставляет
+чекбоксы напрямую без явного рассуждения.
+
+Стратегия генерации: zero-shot, temperature$=0{,}0$.
+
+\begin{verbatim}
+[SYSTEM]
+Ты — эксперт по оценке качества ответов
+диалоговых ассистентов.
+
+[USER]
+Запрос пользователя:
+{query}
+
+Ответ системы A:
+{response_S}
+
+Ответ системы B:
+{response_C}
+
+Оцени каждый ответ строго по порядку.
+Для каждого критерия укажи true/false.
+При первом false последующие критерии
+автоматически считаются false.
+
+Критерии (в порядке проверки):
+1. Relevance: отвечает ли ответ на запрос в целом?
+2. Accuracy: фактически верен ли ответ
+   во всех модальностях?
+3. Completeness: полностью ли покрыт запрос,
+   с нужным форматом и деталями?
+4. Readability: структурирован и читаем ли ответ?
+
+Формат вывода (строго JSON):
+{{
+  "A": {{"relevance": bool, "accuracy": bool,
+        "completeness": bool, "readability": bool}},
+  "B": {{"relevance": bool, "accuracy": bool,
+        "completeness": bool, "readability": bool}}
+}}
+\end{verbatim}
+
+\section{Промпт c2\_stoprule (явное правило «стоп»)}
+\label{app:stoprule}
+
+Назначение: явная инструкция «стоп на первом false»
+снижает неоднородность интерпретации чеклиста.
+
+Стратегия генерации: zero-shot, temperature$=0{,}0$.
+
+\begin{verbatim}
+[SYSTEM]
+Ты — эксперт по оценке качества ответов
+диалоговых ассистентов.
+
+[USER]
+Запрос пользователя:
+{query}
+
+Ответ системы A:
+{response_S}
+
+Ответ системы B:
+{response_C}
+
+ВАЖНО: проверяй критерии строго по порядку.
+Как только критерий получает false —
+все последующие автоматически false.
+Не оценивай длину ответа как показатель качества:
+короткий точный ответ НЕ хуже длинного.
+
+Критерии:
+1. Relevance
+2. Accuracy
+3. Completeness
+4. Readability
+
+Формат вывода (строго JSON):
+{{
+  "A": {{"relevance": bool, "accuracy": bool,
+        "completeness": bool, "readability": bool}},
+  "B": {{"relevance": bool, "accuracy": bool,
+        "completeness": bool, "readability": bool}}
+}}
+\end{verbatim}
+
+\section{Промпт c3\_reason (цепочка рассуждений, few-shot)}
+\label{app:reason}
+
+Назначение: явное рассуждение по каждому критерию
+перед вынесением вердикта (перенос идеи EvalPlanner).
+
+Стратегия генерации: few-shot (1 пример), temperature$=0{,}0$.
+
+\begin{verbatim}
+[SYSTEM]
+Ты — эксперт по оценке качества ответов
+диалоговых ассистентов.
+
+[USER — FEW-SHOT ПРИМЕР]
+Запрос: «Покажи график цены акции за год»
+
+Ответ A: «Вот график: [изображение]»
+Ответ B: «Цена акции росла в течение года.»
+
+Рассуждение:
+- Relevance A: ответ содержит запрошенный график → true
+- Relevance B: ответ описывает тренд словами,
+  без графика → false; дальнейшие критерии false
+
+Итог:
+{{"A": {{"relevance": true, "accuracy": true,
+       "completeness": true, "readability": true}},
+ "B": {{"relevance": false, "accuracy": false,
+       "completeness": false, "readability": false}}}}
+
+[USER — РЕАЛЬНЫЙ ЗАПРОС]
+Запрос пользователя:
+{query}
+
+Ответ системы A:
+{response_S}
+
+Ответ системы B:
+{response_C}
+
+Сначала напиши рассуждение по каждому критерию
+для каждого ответа (1–2 предложения на критерий).
+Затем выведи итоговый JSON в том же формате,
+что в примере выше.
+\end{verbatim}

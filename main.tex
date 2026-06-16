@@ -1,0 +1,41 @@
+\documentclass{mipt-thesis-ms}
+
+% Библиография: biblatex + biber (рекомендуемый способ шаблона)
+\usepackage{mipt-thesis-biblatex}
+\addbibresource{bibliography.bib}
+
+% Собственные макросы и обозначения (см. CONVENTIONS.md §4)
+\input{preamble}
+
+% --- Титульный лист (CONVENTIONS.md §1) ---
+\title{Проектирование воспроизводимого пайплайна оценивания мультимодальных LLM-систем с~использованием LLM-as-a-Judge. Способы повышения качества оценки}
+\author{Кротов А.\,И.}
+\supervisor{Ивченко О.\,Н.}
+\referee{TODO}                            % заполнить когда будет известен
+\groupnum{М05-401а}
+\faculty{Физтех-школа прикладной математики и информатики}
+\department{Кафедра алгоритмов и технологий программирования}
+
+\begin{document}
+
+\frontmatter
+% титульный лист убран для текущей версии
+\tableofcontents \addemptypage
+\pagestyle{miptthesis}
+
+\mainmatter
+
+\input{sections/01-intro}
+\input{sections/02-related}
+\input{sections/03-method}
+\input{sections/04-experiments}
+\input{sections/05-results}
+\input{sections/06-conclusion}
+
+\backmatter
+
+\input{sections/appendix-prompts}
+
+\printbib
+
+\end{document}

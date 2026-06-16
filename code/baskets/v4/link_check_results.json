@@ -1,0 +1,1036 @@
+{
+  "gpt": {
+    "total": 1636,
+    "broken": 169,
+    "broken_pct": 10.33,
+    "by_category": {
+      "OK (200)": 1467,
+      "HTTP 403": 169
+    },
+    "broken_urls": [
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779322339_8183317.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779300341_8358865.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779335653_1221306.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779330512_640476.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779315849_2796628.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779302968_4609492.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779331946_8009994.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779310995_0741875.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779297967_9356525.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779299914_779266.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779316435_6752734.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779316733_6901705.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779303784_7845955.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779322037_827432.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779294848_9502494.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779288359_8738458.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779331122_715849.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779323700_0284252.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779329652_1786718.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779327473_2667449.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779326423_68697.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779334528_4429462.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779300633_2186801.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779332684_5748444.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779291703_0923193.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779295383_5949326.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779322730_2893186.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779297580_7321346.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779301486_8974664.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779332866_0043952.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779322513_0995915.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779281367_2604082.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779334028_3690822.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779303788_1965382.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779331656_940004.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779330070_8522077.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779325063_3930926.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779311979_1230433.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779324756_981413.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779326787_0769458.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779327398_5133448.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779283437_6898372.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779293086_9490604.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779315012_961569.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779300352_962249.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779330703_842806.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779328820_2139153.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779285276_3559217.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779301473_2507455.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779334913_110493.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779330449_1778765.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779299741_7799745.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779304349_7300851.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779332727_3488886.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779302577_4364378.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779303101_9863343.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779329039_62928.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779326434_968653.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779282391_8502374.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779320067_7165678.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779318214_0749402.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779331311_0715241.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779327121_1050851.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779334822_6369264.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779334451_291746.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779295569_2909138.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779329310_142103.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779328255_087443.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779328674_3034093.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779333118_134953.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779319679_4138348.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779334207_3305287.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779319078_9447823.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779334351_0009503.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779327542_642283.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779289212_1495392.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779317514_9632602.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779295758_816625.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779326499_8833055.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779331312_9745255.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779313332_647913.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779288203_3087919.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779292503_1844711.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779314188_5100768.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779332273_269959.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779312292_2538555.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779331600_2453907.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779326879_2160256.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779327472_359069.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779333664_9422793.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779284549_3693423.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779324680_076274.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779332865_0222175.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779324860_8373783.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779283370_0874555.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779328741_5562806.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779334935_5361488.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779294141_581731.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779307535_3275633.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779318027_157985.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779296687_2568717.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779310345_5385122.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779282837_5550807.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779300482_9821572.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779289557_5414681.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779334029_9953995.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779323413_8409927.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779294153_5241563.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779327543_956581.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779323634_1968582.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779323321_7715302.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779334798_0239916.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779329248_956576.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779294135_871856.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779335200_562995.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779321909_8359137.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779332557_4354198.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779289716_0438323.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779332501_0176578.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779315860_4584522.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779324080_905982.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779292071_3571446.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779324678_6002486.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779312396_2981086.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779312093_5715673.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779295225_5225372.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779326867_7215846.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779290574_3296342.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779313343_9545279.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779309055_4783263.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779323801_48662.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779331242_6342812.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779317809_3329387.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779326371_088998.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779307996_1706355.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779333977_8415449.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779299740_0359323.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779307409_9474082.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779332444_125857.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779335496_5335424.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779332102_4985359.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779331421_366195.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779306661_1522036.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779300794_9707806.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779302290_1375642.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779292704_019368.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779318206_521797.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779330961_765442.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779298304_8020368.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779290573_125368.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779289026_973375.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779335233_9471457.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779321690_591823.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779334135_04325.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779313573_2664595.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779324362_2395067.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779288851_9496799.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779332751_738069.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779333938_603138.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779285443_9298043.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779302833_2521734.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779328878_6779072.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779315837_5837886.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779332958_7481031.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779300928_944862.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779331658_1439314.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779308355_8829567.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779330049_4692323.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      },
+      {
+        "url": "https://s3.mds.yandex.net/eliza-web-llm/chatgpt/1779300211_3524528.html",
+        "reason": "HTTP 403",
+        "status": 403,
+        "error": "HTTPError 403: Forbidden"
+      }
+    ]
+  },
+  "ydx": {
+    "total": 1636,
+    "broken": 0,
+    "broken_pct": 0.0,
+    "by_category": {
+      "OK (200)": 1636
+    },
+    "broken_urls": []
+  }
+}

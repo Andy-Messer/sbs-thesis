@@ -1,0 +1,84 @@
+{
+  "n": 101,
+  "sbs_assessors": -14.9,
+  "content": {
+    "A_baseline": {
+      "n": 0,
+      "agreement": 0.0,
+      "sbs_nps": 0.0,
+      "ci_judge": [
+        0.0,
+        0.0
+      ],
+      "delta_ci": [
+        0.0,
+        29.7
+      ],
+      "equiv": false
+    },
+    "B_faithful": {
+      "n": 101,
+      "agreement": 0.366,
+      "sbs_nps": 5.0,
+      "ci_judge": [
+        -7.9,
+        17.8
+      ],
+      "delta_ci": [
+        0.0,
+        39.6
+      ],
+      "equiv": false
+    },
+    "C_multiprompt": {
+      "n": 101,
+      "agreement": 0.396,
+      "sbs_nps": 1.0,
+      "ci_judge": [
+        -5.9,
+        7.9
+      ],
+      "delta_ci": [
+        -1.0,
+        32.7
+      ],
+      "equiv": false
+    },
+    "D_consensus": {
+      "n": 0,
+      "agreement": 0.0,
+      "sbs_nps": 0.0,
+      "ci_judge": [
+        0.0,
+        0.0
+      ],
+      "delta_ci": [
+        0.0,
+        29.7
+      ],
+      "equiv": false
+    }
+  },
+  "design": {
+    "YandexAI": {
+      "mean_total": 4.45,
+      "per_criterion": {
+        "contrast": 0,
+        "repetition": 0,
+        "alignment": 0,
+        "proximity": 0
+      },
+      "n": 300
+    },
+    "Gpt": {
+      "mean_total": 4.43,
+      "per_criterion": {
+        "contrast": 0,
+        "repetition": 0,
+        "alignment": 0,
+        "proximity": 0
+      },
+      "n": 300
+    }
+  }
+}

@@ -1,0 +1,1125 @@
+{
+  "agents": [
+    {
+      "agent": "Info Agent",
+      "n": 7722,
+      "ya_win_pct": 29.0,
+      "ya_draw_pct": 43.6,
+      "ya_loss_pct": 27.4,
+      "ya_sat": {
+        "readability": 69.4,
+        "completeness": 73.5,
+        "accuracy": 88.3,
+        "relevance": 95.2
+      },
+      "gpt_sat": {
+        "readability": 72.6,
+        "completeness": 74.7,
+        "accuracy": 89.9,
+        "relevance": 98.2
+      },
+      "gap": {
+        "readability": 3.2,
+        "completeness": 1.2,
+        "accuracy": 1.7,
+        "relevance": 3.0
+      },
+      "top_loss_comments": [
+        {
+          "text": ".",
+          "freq": 63
+        },
+        {
+          "text": "GPT provides a better answer.",
+          "freq": 51
+        },
+        {
+          "text": "GPT is better.",
+          "freq": 33
+        },
+        {
+          "text": "GPT best",
+          "freq": 21
+        },
+        {
+          "text": "The GPT response meets user needs and is ranked 1st. The Yandex AI response contains unnecessary links that reduce readability and is ranked 2nd.",
+          "freq": 21
+        },
+        {
+          "text": "tanınan",
+          "freq": 21
+        },
+        {
+          "text": "A is better. details explained above...",
+          "freq": 9
+        },
+        {
+          "text": "yandex is missing key detail",
+          "freq": 9
+        }
+      ]
+    },
+    {
+      "agent": "Web Agent",
+      "n": 6420,
+      "ya_win_pct": 65.2,
+      "ya_draw_pct": 10.8,
+      "ya_loss_pct": 24.0,
+      "ya_sat": {
+        "readability": 64.1,
+        "completeness": 67.0,
+        "accuracy": 84.6,
+        "relevance": 94.1
+      },
+      "gpt_sat": {
+        "readability": 18.4,
+        "completeness": 18.9,
+        "accuracy": 73.2,
+        "relevance": 87.6
+      },
+      "gap": {
+        "readability": -45.7,
+        "completeness": -48.1,
+        "accuracy": -11.4,
+        "relevance": -6.4
+      },
+      "top_loss_comments": [
+        {
+          "text": "gpt doğru yaklaşım",
+          "freq": 72
+        },
+        {
+          "text": "gpt doğru tutum",
+          "freq": 54
+        },
+        {
+          "text": "Adult content",
+          "freq": 39
+        },
+        {
+          "text": "The GPT response is a partial answer and is ranked 1st. The Yandex AI response, where some links don't open, is ranked 2nd.",
+          "freq": 33
+        },
+        {
+          "text": "Gpt respectful",
+          "freq": 27
+        },
+        {
+          "text": "gpt daha doğru davranmış",
+          "freq": 24
+        },
+        {
+          "text": "Gpt dogru tutum",
+          "freq": 21
+        },
+        {
+          "text": ".",
+          "freq": 15
+        }
+      ]
+    },
+    {
+      "agent": "Chat Agent",
+      "n": 4350,
+      "ya_win_pct": 12.6,
+      "ya_draw_pct": 44.1,
+      "ya_loss_pct": 43.4,
+      "ya_sat": {
+        "readability": 46.0,
+        "completeness": 49.7,
+        "accuracy": 71.6,
+        "relevance": 76.5
+      },
+      "gpt_sat": {
+        "readability": 73.2,
+        "completeness": 75.4,
+        "accuracy": 93.0,
+        "relevance": 97.1
+      },
+      "gap": {
+        "readability": 27.2,
+        "completeness": 25.8,
+        "accuracy": 21.4,
+        "relevance": 20.6
+      },
+      "top_loss_comments": [
+        {
+          "text": "GPT provides a better answer.",
+          "freq": 66
+        },
+        {
+          "text": ".",
+          "freq": 51
+        },
+        {
+          "text": "Yandex AI has not responded.",
+          "freq": 39
+        },
+        {
+          "text": "GPT best",
+          "freq": 24
+        },
+        {
+          "text": "tanınan",
+          "freq": 24
+        },
+        {
+          "text": "GPT is better.",
+          "freq": 21
+        },
+        {
+          "text": "Gpt friendly",
+          "freq": 12
+        },
+        {
+          "text": "ya has no answer",
+          "freq": 12
+        }
+      ]
+    },
+    {
+      "agent": "Trip Agent",
+      "n": 2238,
+      "ya_win_pct": 30.2,
+      "ya_draw_pct": 36.9,
+      "ya_loss_pct": 33.0,
+      "ya_sat": {
+        "readability": 63.1,
+        "completeness": 68.5,
+        "accuracy": 89.9,
+        "relevance": 98.3
+      },
+      "gpt_sat": {
+        "readability": 71.7,
+        "completeness": 74.9,
+        "accuracy": 93.2,
+        "relevance": 99.2
+      },
+      "gap": {
+        "readability": 8.6,
+        "completeness": 6.4,
+        "accuracy": 3.2,
+        "relevance": 0.9
+      },
+      "top_loss_comments": [
+        {
+          "text": ".",
+          "freq": 51
+        },
+        {
+          "text": "Gpt kazanır.\n\n2-1",
+          "freq": 9
+        },
+        {
+          "text": "The GPT response meets user needs and is ranked 1st. The Yandex AI response contains unnecessary links that reduce readability and is ranked 2nd.",
+          "freq": 9
+        },
+        {
+          "text": "The ranking is based on the number of markings.",
+          "freq": 9
+        },
+        {
+          "text": "690147",
+          "freq": 9
+        },
+        {
+          "text": "The GPT response satisfies the user's request and is ranked 1st. The Yandex AI response provides a partial answer and is ranked 2nd.",
+          "freq": 6
+        },
+        {
+          "text": "both are relevant but gpt has better presentation",
+          "freq": 6
+        },
+        {
+          "text": "GPT best",
+          "freq": 6
+        }
+      ]
+    },
+    {
+      "agent": "Media Agent",
+      "n": 2148,
+      "ya_win_pct": 41.9,
+      "ya_draw_pct": 32.7,
+      "ya_loss_pct": 25.4,
+      "ya_sat": {
+        "readability": 48.9,
+        "completeness": 50.3,
+        "accuracy": 79.6,
+        "relevance": 87.6
+      },
+      "gpt_sat": {
+        "readability": 33.8,
+        "completeness": 34.9,
+        "accuracy": 72.5,
+        "relevance": 87.6
+      },
+      "gap": {
+        "readability": -15.1,
+        "completeness": -15.4,
+        "accuracy": -7.1,
+        "relevance": 0.0
+      },
+      "top_loss_comments": [
+        {
+          "text": "GPT provides a better answer.",
+          "freq": 24
+        },
+        {
+          "text": "GPT is better.",
+          "freq": 12
+        },
+        {
+          "text": "The ranking is determined based on the number of checked boxes",
+          "freq": 9
+        },
+        {
+          "text": "GPT best",
+          "freq": 6
+        },
+        {
+          "text": "Sorting was done based on the number of checks.",
+          "freq": 6
+        },
+        {
+          "text": "368292",
+          "freq": 6
+        },
+        {
+          "text": "yandex is missing key detail",
+          "freq": 6
+        },
+        {
+          "text": "psikolojik",
+          "freq": 3
+        }
+      ]
+    },
+    {
+      "agent": "Video in Search Agent",
+      "n": 1650,
+      "ya_win_pct": 40.9,
+      "ya_draw_pct": 32.4,
+      "ya_loss_pct": 26.7,
+      "ya_sat": {
+        "readability": 66.7,
+        "completeness": 74.2,
+        "accuracy": 87.8,
+        "relevance": 96.7
+      },
+      "gpt_sat": {
+        "readability": 56.7,
+        "completeness": 59.5,
+        "accuracy": 90.0,
+        "relevance": 97.6
+      },
+      "gap": {
+        "readability": -10.0,
+        "completeness": -14.7,
+        "accuracy": 2.2,
+        "relevance": 0.9
+      },
+      "top_loss_comments": [
+        {
+          "text": ".",
+          "freq": 12
+        },
+        {
+          "text": "GPT best",
+          "freq": 6
+        },
+        {
+          "text": "Gpt kazanır.\n\n1-2",
+          "freq": 6
+        },
+        {
+          "text": "GPT is better.",
+          "freq": 6
+        },
+        {
+          "text": "The GPT response fully meets user needs and ranks 1st. The Yandex AI response, which opens Apple.com when the video link is clicked, ranks 2nd.",
+          "freq": 3
+        },
+        {
+          "text": "both models gave relevant answers, but yandex mentioned only about last year, so it s a bit outdated,even very detailed and with videos\ngpt gave very short, not too detailed information without any visual content, but gave sample for 2026 and 2025 years as well, so ıt s more fresh and can be more useful for the user",
+          "freq": 3
+        },
+        {
+          "text": "GPT is a partial answer and ranks 1st. Yandex AI's answer, which redirects to Apple.com via YouTube, ranks 2nd.",
+          "freq": 3
+        },
+        {
+          "text": "the query requests videos but yandex does not provide any videos but only hotel lists.",
+          "freq": 3
+        }
+      ]
+    },
+    {
+      "agent": "Finance Agent",
+      "n": 1560,
+      "ya_win_pct": 21.9,
+      "ya_draw_pct": 45.6,
+      "ya_loss_pct": 32.5,
+      "ya_sat": {
+        "readability": 68.5,
+        "completeness": 71.9,
+        "accuracy": 86.7,
+        "relevance": 96.3
+      },
+      "gpt_sat": {
+        "readability": 78.1,
+        "completeness": 80.0,
+        "accuracy": 90.8,
+        "relevance": 99.0
+      },
+      "gap": {
+        "readability": 9.6,
+        "completeness": 8.1,
+        "accuracy": 4.0,
+        "relevance": 2.7
+      },
+      "top_loss_comments": [
+        {
+          "text": "GPT best",
+          "freq": 9
+        },
+        {
+          "text": ".",
+          "freq": 9
+        },
+        {
+          "text": "yürüyüş",
+          "freq": 6
+        },
+        {
+          "text": "GPT provides a better answer.",
+          "freq": 6
+        },
+        {
+          "text": "The GPT response satisfies the user's request and is ranked 1st. The Yandex AI response, which opens Apple.com when the link is clicked, is ranked 2nd.",
+          "freq": 3
+        },
+        {
+          "text": "The GPT response satisfies the user's request and is ranked 1st. The Yandex AI response partially satisfies the user's request regarding the date range and is ranked 2nd.",
+          "freq": 3
+        },
+        {
+          "text": "The GPT response satisfies the user's request and is ranked 1st. The Yandex AI response lacks a direct answer and has poor readability, placing it 2nd.",
+          "freq": 3
+        },
+        {
+          "text": "Gpt kazanır.\n\n2-1",
+          "freq": 3
+        }
+      ]
+    },
+    {
+      "agent": "Astrology Agent",
+      "n": 1512,
+      "ya_win_pct": 12.1,
+      "ya_draw_pct": 53.2,
+      "ya_loss_pct": 34.7,
+      "ya_sat": {
+        "readability": 66.7,
+        "completeness": 71.4,
+        "accuracy": 89.5,
+        "relevance": 95.4
+      },
+      "gpt_sat": {
+        "readability": 88.7,
+        "completeness": 90.5,
+        "accuracy": 96.0,
+        "relevance": 99.6
+      },
+      "gap": {
+        "readability": 22.0,
+        "completeness": 19.0,
+        "accuracy": 6.5,
+        "relevance": 4.2
+      },
+      "top_loss_comments": [
+        {
+          "text": "GPT provides a better answer.",
+          "freq": 39
+        },
+        {
+          "text": "GPT is better.",
+          "freq": 15
+        },
+        {
+          "text": ".",
+          "freq": 12
+        },
+        {
+          "text": "The GPT response meets user needs and is ranked 1st. The Yandex AI response contains unnecessary links that reduce readability and is ranked 2nd.",
+          "freq": 6
+        },
+        {
+          "text": "The ranking is determined based on the number of checked boxes",
+          "freq": 6
+        },
+        {
+          "text": "workout",
+          "freq": 6
+        },
+        {
+          "text": "tanınan",
+          "freq": 6
+        },
+        {
+          "text": "The GPT response fulfills the user's request and is ranked 1st. The Yandex AI response, which provides a YouTube link that opens Apple.com, is ranked 2nd.",
+          "freq": 3
+        }
+      ]
+    },
+    {
+      "agent": "E-commerce Agent",
+      "n": 1503,
+      "ya_win_pct": 42.7,
+      "ya_draw_pct": 35.5,
+      "ya_loss_pct": 21.8,
+      "ya_sat": {
+        "readability": 73.7,
+        "completeness": 78.8,
+        "accuracy": 90.8,
+        "relevance": 94.8
+      },
+      "gpt_sat": {
+        "readability": 65.7,
+        "completeness": 68.1,
+        "accuracy": 90.4,
+        "relevance": 96.6
+      },
+      "gap": {
+        "readability": -8.0,
+        "completeness": -10.8,
+        "accuracy": -0.4,
+        "relevance": 1.8
+      },
+      "top_loss_comments": [
+        {
+          "text": "GPT best",
+          "freq": 12
+        },
+        {
+          "text": ".",
+          "freq": 12
+        },
+        {
+          "text": "GPT provides a better answer.",
+          "freq": 9
+        },
+        {
+          "text": "The GPT response fulfills the user's request and is ranked 1st. The Yandex AI response contains unnecessary links that reduce readability and is ranked 2nd.",
+          "freq": 6
+        },
+        {
+          "text": "explained details above. B is better.",
+          "freq": 6
+        },
+        {
+          "text": "GPT is better.",
+          "freq": 6
+        },
+        {
+          "text": "The ranking was based on model accuracy scores",
+          "freq": 6
+        },
+        {
+          "text": "both are good but gpt is more accurate",
+          "freq": 3
+        }
+      ]
+    },
+    {
+      "agent": "Movie Agent",
+      "n": 1356,
+      "ya_win_pct": 53.5,
+      "ya_draw_pct": 27.0,
+      "ya_loss_pct": 19.5,
+      "ya_sat": {
+        "readability": 71.0,
+        "completeness": 75.9,
+        "accuracy": 86.7,
+        "relevance": 94.5
+      },
+      "gpt_sat": {
+        "readability": 46.0,
+        "completeness": 50.0,
+        "accuracy": 81.9,
+        "relevance": 93.6
+      },
+      "gap": {
+        "readability": -25.0,
+        "completeness": -25.9,
+        "accuracy": -4.9,
+        "relevance": -0.9
+      },
+      "top_loss_comments": [
+        {
+          "text": "GPT best",
+          "freq": 6
+        },
+        {
+          "text": "No response for yandex",
+          "freq": 6
+        },
+        {
+          "text": ".",
+          "freq": 6
+        },
+        {
+          "text": "GPT provides a better answer.",
+          "freq": 6
+        },
+        {
+          "text": "GPT response fulfills user request and is ranked 1st. Yandex AI response, \"The link ''https://dizikorea3.com/dizi/one-high-school-heroes-izle'' doesn't open,\" is ranked 2nd.",
+          "freq": 3
+        },
+        {
+          "text": "yandex cevaplamamış",
+          "freq": 3
+        },
+        {
+          "text": "A can not find figure out the user's request.\nB also can not provide a complete answer, but the suggested link may be helpful for the user. So this response is better.",
+          "freq": 3
+        },
+        {
+          "text": "The GPT response partially satisfies the user's request and is ranked 1st. The Yandex AI response did not provide a helpful answer and is ranked 2nd.",
+          "freq": 3
+        }
+      ]
+    },
+    {
+      "agent": "Sports Agent",
+      "n": 1299,
+      "ya_win_pct": 30.7,
+      "ya_draw_pct": 38.8,
+      "ya_loss_pct": 30.5,
+      "ya_sat": {
+        "readability": 56.8,
+        "completeness": 60.7,
+        "accuracy": 85.9,
+        "relevance": 97.9
+      },
+      "gpt_sat": {
+        "readability": 63.0,
+        "completeness": 65.6,
+        "accuracy": 90.1,
+        "relevance": 99.1
+      },
+      "gap": {
+        "readability": 6.2,
+        "completeness": 4.8,
+        "accuracy": 4.2,
+        "relevance": 1.2
+      },
+      "top_loss_comments": [
+        {
+          "text": ".",
+          "freq": 18
+        },
+        {
+          "text": "GPT provides a better answer.",
+          "freq": 15
+        },
+        {
+          "text": "yandex ingilizce sorguya türkçe cevap veriyor",
+          "freq": 9
+        },
+        {
+          "text": "Gpt iyi hazırlanmış bir cevap verdi. Yandex AI İngilizce isteğe Türkçe cevap verdi.",
+          "freq": 6
+        },
+        {
+          "text": "yandex ingilizce sorguya türkçe yanıt veriyor",
+          "freq": 6
+        },
+        {
+          "text": "-",
+          "freq": 6
+        },
+        {
+          "text": "272104",
+          "freq": 6
+        },
+        {
+          "text": "details explained above",
+          "freq": 6
+        }
+      ]
+    },
+    {
+      "agent": "Weather Agent",
+      "n": 1296,
+      "ya_win_pct": 46.1,
+      "ya_draw_pct": 32.6,
+      "ya_loss_pct": 21.3,
+      "ya_sat": {
+        "readability": 54.4,
+        "completeness": 58.1,
+        "accuracy": 89.8,
+        "relevance": 95.4
+      },
+      "gpt_sat": {
+        "readability": 39.8,
+        "completeness": 43.5,
+        "accuracy": 78.5,
+        "relevance": 94.4
+      },
+      "gap": {
+        "readability": -14.6,
+        "completeness": -14.6,
+        "accuracy": -11.3,
+        "relevance": -0.9
+      },
+      "top_loss_comments": [
+        {
+          "text": ".",
+          "freq": 24
+        },
+        {
+          "text": "GPT is better.",
+          "freq": 6
+        },
+        {
+          "text": "GPT wins the top rank due to its perfect factual accuracy regarding regional transit infrastructure. In travel logistics, delivering a hallucinated direct train duration is a critical failure that can cause a traveler to miss connections. GPT accurately explains that a direct line is still under construction and provides the precise real-world alternative used by thousands daily: the combined YHT Train (Ankara-Eskişehir) + TCDD Bus (Eskişehir-Bursa) transfer route, detailing the exact times for both legs.",
+          "freq": 3
+        },
+        {
+          "text": "Eşitlik bozulur Gpt daha az hata içeriyor.\n\n2-1",
+          "freq": 3
+        },
+        {
+          "text": "Yandex just response for Ankara. But main point about whole places",
+          "freq": 3
+        },
+        {
+          "text": "both accurate but gpt is more detailed",
+          "freq": 3
+        },
+        {
+          "text": "Zamana duyarlı bir sorgu. Yanıtlarda zamana duyarlılık gözetilmemiş fakat Gpt verdiği cevap ve sağladığı kaynak ile daha iyi bir yanıt olarak değerlendirildi.",
+          "freq": 3
+        },
+        {
+          "text": "Zamana duyarlı bir sorgu, Gpt yanıtında verdiği tarih ile sorgu tarihi uygun o yüzden daha iyi cevap olarak değerlendirildi.",
+          "freq": 3
+        }
+      ]
+    },
+    {
+      "agent": "Medicine Agent",
+      "n": 1278,
+      "ya_win_pct": 29.3,
+      "ya_draw_pct": 32.4,
+      "ya_loss_pct": 38.3,
+      "ya_sat": {
+        "readability": 57.7,
+        "completeness": 61.5,
+        "accuracy": 79.8,
+        "relevance": 93.0
+      },
+      "gpt_sat": {
+        "readability": 65.3,
+        "completeness": 67.4,
+        "accuracy": 75.1,
+        "relevance": 98.6
+      },
+      "gap": {
+        "readability": 7.5,
+        "completeness": 5.9,
+        "accuracy": -4.7,
+        "relevance": 5.6
+      },
+      "top_loss_comments": [
+        {
+          "text": ".",
+          "freq": 15
+        },
+        {
+          "text": "GPT provides a better answer.",
+          "freq": 12
+        },
+        {
+          "text": "GPT is better.",
+          "freq": 9
+        },
+        {
+          "text": "Yandex AI only shared a link.",
+          "freq": 6
+        },
+        {
+          "text": "The ranking is determined based on the number of checked boxes",
+          "freq": 6
+        },
+        {
+          "text": "Yandex AI ignores the dialogue.",
+          "freq": 6
+        },
+        {
+          "text": "The gpt chat provided a more precise answer and helped the user with the question.",
+          "freq": 3
+        },
+        {
+          "text": "The GPT response satisfies the user's request and is ranked 1st. The Yandex AI response is a partial answer and is ranked 2nd.",
+          "freq": 3
+        }
+      ]
+    },
+    {
+      "agent": "Recipe Agent",
+      "n": 1275,
+      "ya_win_pct": 32.2,
+      "ya_draw_pct": 41.4,
+      "ya_loss_pct": 26.4,
+      "ya_sat": {
+        "readability": 77.6,
+        "completeness": 82.8,
+        "accuracy": 89.9,
+        "relevance": 95.3
+      },
+      "gpt_sat": {
+        "readability": 83.1,
+        "completeness": 86.6,
+        "accuracy": 96.7,
+        "relevance": 100.0
+      },
+      "gap": {
+        "readability": 5.4,
+        "completeness": 3.8,
+        "accuracy": 6.8,
+        "relevance": 4.7
+      },
+      "top_loss_comments": [
+        {
+          "text": ".",
+          "freq": 15
+        },
+        {
+          "text": "GPT provides a better answer.",
+          "freq": 9
+        },
+        {
+          "text": "GPT best",
+          "freq": 6
+        },
+        {
+          "text": "The GPT response perfectly meets the user's request and ranks 1st. The Yandex AI response, which opens Apple.com when the following food links are clicked, ranks 2nd.",
+          "freq": 3
+        },
+        {
+          "text": "GPT response fulfills the user request and is ranked 1st. Yandex AI response, which provides YouTube links and redirects to Apple.com, is ranked 2nd.",
+          "freq": 3
+        },
+        {
+          "text": "In the GPT response, although the user is searching in Turkish, it gives an English answer; this is a partial answer and is ranked 1st. In the Yandex AI response, the links open to Apple.com; this is ranked 2nd.",
+          "freq": 3
+        },
+        {
+          "text": "The GPT response meets the user's request and is ranked 1st. The Yandex AI response did not provide a direct answer and reduces readability; it is ranked 2nd.",
+          "freq": 3
+        },
+        {
+          "text": "GPt daha kapsamlı",
+          "freq": 3
+        }
+      ]
+    },
+    {
+      "agent": "News Agent",
+      "n": 1224,
+      "ya_win_pct": 22.8,
+      "ya_draw_pct": 35.8,
+      "ya_loss_pct": 41.4,
+      "ya_sat": {
+        "readability": 53.9,
+        "completeness": 58.6,
+        "accuracy": 83.6,
+        "relevance": 92.4
+      },
+      "gpt_sat": {
+        "readability": 75.0,
+        "completeness": 78.4,
+        "accuracy": 92.9,
+        "relevance": 97.1
+      },
+      "gap": {
+        "readability": 21.1,
+        "completeness": 19.9,
+        "accuracy": 9.3,
+        "relevance": 4.7
+      },
+      "top_loss_comments": [
+        {
+          "text": ".",
+          "freq": 12
+        },
+        {
+          "text": "GPT provides a better answer.",
+          "freq": 9
+        },
+        {
+          "text": "GPT best",
+          "freq": 6
+        },
+        {
+          "text": "Gpt kazanır.\n\n1-2",
+          "freq": 6
+        },
+        {
+          "text": "The ranking is based on the number of markings.",
+          "freq": 6
+        },
+        {
+          "text": "Both responses are relevant but gpt explains better",
+          "freq": 3
+        },
+        {
+          "text": "gpt daha okunur ve özetle istenileni hemen vermiş",
+          "freq": 3
+        },
+        {
+          "text": "Yandexin okunurluk daha kötü",
+          "freq": 3
+        }
+      ]
+    },
+    {
+      "agent": "Doctors Agent",
+      "n": 1056,
+      "ya_win_pct": 30.4,
+      "ya_draw_pct": 36.1,
+      "ya_loss_pct": 33.5,
+      "ya_sat": {
+        "readability": 59.4,
+        "completeness": 61.9,
+        "accuracy": 83.8,
+        "relevance": 97.7
+      },
+      "gpt_sat": {
+        "readability": 67.0,
+        "completeness": 69.9,
+        "accuracy": 90.1,
+        "relevance": 99.1
+      },
+      "gap": {
+        "readability": 7.7,
+        "completeness": 8.0,
+        "accuracy": 6.2,
+        "relevance": 1.4
+      },
+      "top_loss_comments": [
+        {
+          "text": "GPT best",
+          "freq": 15
+        },
+        {
+          "text": ".",
+          "freq": 12
+        },
+        {
+          "text": "GPT provides a better answer.",
+          "freq": 12
+        },
+        {
+          "text": "window",
+          "freq": 6
+        },
+        {
+          "text": "The GPT response satisfies the user's request and is ranked 1st. The Yandex AI response, which is irrelevant to the user's request, is ranked 2nd.",
+          "freq": 3
+        },
+        {
+          "text": "Chat gpt gave a more detailed answer and provided a wider choice of professionals",
+          "freq": 3
+        },
+        {
+          "text": "The GPT response satisfies the user's request and is ranked 1st. The Yandex AI response provides a partial answer and does not include information about clinics; it is ranked 2nd.",
+          "freq": 3
+        },
+        {
+          "text": "gpt's response includes female dentists as requested",
+          "freq": 3
+        }
+      ]
+    },
+    {
+      "agent": "Education Agent",
+      "n": 1029,
+      "ya_win_pct": 10.5,
+      "ya_draw_pct": 44.6,
+      "ya_loss_pct": 44.9,
+      "ya_sat": {
+        "readability": 55.1,
+        "completeness": 59.5,
+        "accuracy": 81.0,
+        "relevance": 89.2
+      },
+      "gpt_sat": {
+        "readability": 84.5,
+        "completeness": 86.0,
+        "accuracy": 96.2,
+        "relevance": 99.7
+      },
+      "gap": {
+        "readability": 29.4,
+        "completeness": 26.5,
+        "accuracy": 15.2,
+        "relevance": 10.5
+      },
+      "top_loss_comments": [
+        {
+          "text": ".",
+          "freq": 18
+        },
+        {
+          "text": "GPT best",
+          "freq": 15
+        },
+        {
+          "text": "1. Gpt: kullanılabilir cevap.\n2. Yandex: önemli link çalışmıyor, cevap doğrulanamıyor.",
+          "freq": 9
+        },
+        {
+          "text": "yandex yapmamış",
+          "freq": 6
+        },
+        {
+          "text": "The ranking is based on the number of marks.",
+          "freq": 6
+        },
+        {
+          "text": "-",
+          "freq": 6
+        },
+        {
+          "text": "Yandex AI has created a course, but the content is not visible.",
+          "freq": 6
+        },
+        {
+          "text": "Gpt iyi bir cevap verdi. Yandex AI'ın cevabı kurs bağlantısı çalışmadığı için doğrulanamıyor.",
+          "freq": 6
+        }
+      ]
+    },
+    {
+      "agent": "Scheduled Tasks Agent",
+      "n": 921,
+      "ya_win_pct": 20.2,
+      "ya_draw_pct": 34.9,
+      "ya_loss_pct": 45.0,
+      "ya_sat": {
+        "readability": 41.4,
+        "completeness": 42.7,
+        "accuracy": 68.4,
+        "relevance": 82.1
+      },
+      "gpt_sat": {
+        "readability": 54.7,
+        "completeness": 55.7,
+        "accuracy": 85.3,
+        "relevance": 96.4
+      },
+      "gap": {
+        "readability": 13.4,
+        "completeness": 13.0,
+        "accuracy": 16.9,
+        "relevance": 14.3
+      },
+      "top_loss_comments": [
+        {
+          "text": ".",
+          "freq": 15
+        },
+        {
+          "text": "GPT provides a better answer.",
+          "freq": 12
+        },
+        {
+          "text": "The GPT response meets the user's needs and is ranked 1st. The Yandex AI response provided a partial answer and is ranked 2nd.",
+          "freq": 6
+        },
+        {
+          "text": "A explains the methods to set an alarm and indicates that it can not directly set an alarm.\nB has an incorrect answer about creating an alarm which it is not in capable of.",
+          "freq": 3
+        },
+        {
+          "text": "Gpt response is not complete but Yandex has no info at all.",
+          "freq": 3
+        },
+        {
+          "text": "GPT wins the top rank with an exceptionally smart and highly reliable analytical response. When a user pastes two closely related questions into a single text prompt within an LLM evaluation environment, they are testing the model's semantic intelligence. GPT handles this beautifully—breaking down exactly how adding the word \"sabah\" (morning) removes ambiguity for 12-hour device clocks. Yandex AI treats the input as a direct voice-assistant automation command but suffers a severe backend crash, displaying a network error message that breaks user utility.",
+          "freq": 3
+        },
+        {
+          "text": "GPT fulfills the user request and is ranked 1st. Yandex AI has not responded and has an error message; it is ranked 2nd.",
+          "freq": 3
+        },
+        {
+          "text": "yandex does not provide any answer",
+          "freq": 3
+        }
+      ]
+    },
+    {
+      "agent": "Earthquake Agent",
+      "n": 609,
+      "ya_win_pct": 37.4,
+      "ya_draw_pct": 36.0,
+      "ya_loss_pct": 26.6,
+      "ya_sat": {
+        "readability": 64.5,
+        "completeness": 67.0,
+        "accuracy": 90.1,
+        "relevance": 100.0
+      },
+      "gpt_sat": {
+        "readability": 66.0,
+        "completeness": 67.0,
+        "accuracy": 92.1,
+        "relevance": 99.5
+      },
+      "gap": {
+        "readability": 1.5,
+        "completeness": 0.0,
+        "accuracy": 2.0,
+        "relevance": -0.5
+      },
+      "top_loss_comments": [
+        {
+          "text": ".",
+          "freq": 6
+        },
+        {
+          "text": "The GPT response satisfies the user's request and is ranked 1st. The Yandex AI response is not related to the user's search date range, provides a current answer, and is ranked 2nd.",
+          "freq": 3
+        },
+        {
+          "text": "Yandex AI ranked lower because it provided information that is outside the answer time window.",
+          "freq": 3
+        },
+        {
+          "text": "Gpt kazanır.\n\n1-2",
+          "freq": 3
+        },
+        {
+          "text": "GPT provided more accurate answers and guidance according to the query. Yandex AI did not provide incorrect information; however, it did not deliver the specific response requested in the query.",
+          "freq": 3
+        },
+        {
+          "text": "Gpt matches with date",
+          "freq": 3
+        },
+        {
+          "text": "Yandex wasn't time sensitive.",
+          "freq": 3
+        },
+        {
+          "text": "Yandex AI's answer is outside the t,me window. Gpt's answer is perfect.",
+          "freq": 3
+        }
+      ]
+    }
+  ]
+}

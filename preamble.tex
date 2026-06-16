@@ -1,0 +1,91 @@
+% Собственные макросы и обозначения.
+% Класс mipt-thesis-ms уже подгружает amsmath/amssymb, siunitx, esint,
+% graphicx, subcaption и др. — здесь только то, чего не хватает.
+
+\usepackage{booktabs} % \toprule/\midrule/\bottomrule для таблиц
+\usepackage{tikz}     % схемы (раздел обзора: ось «качество vs стоимость»)
+\usetikzlibrary{positioning, arrows.meta, fit, backgrounds}
+
+% --- Типографика и компоновка (CONVENTIONS.md §1: правки только здесь,
+%     не в самом .cls) ---
+% протрузия улучшает переносы; expansion отключён -- шрифты шаблона (CM)
+% не масштабируемые и не поддерживают font expansion
+\usepackage[protrusion=true, expansion=false]{microtype}
+% Убираем принудительные пустые страницы шаблона: \addemptypage (после
+% титула и содержания) и openright-вставки book перед главами. Документ
+% читается одностранично, поэтому пустые страницы не нужны.
+\renewcommand{\cleardoublepage}{\clearpage}
+\renewcommand{\addemptypage}{\clearpage}
+
+% --- Множества чисел ---
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+
+% --- Векторы, матрицы, множества ---
+\newcommand{\vect}[1]{\mathbf{#1}}      % вектор:  \vect{x}
+\newcommand{\mat}[1]{\mathbf{#1}}       % матрица: \mat{A}
+\newcommand{\set}[1]{\mathcal{#1}}      % множество: \set{X}
+
+% --- Операторы ---
+\DeclareMathOperator*{\argmin}{arg\,min}
+\DeclareMathOperator*{\argmax}{arg\,max}
+\newcommand{\E}{\mathbb{E}}             % мат. ожидание
+\newcommand{\norm}[1]{\left\lVert#1\right\rVert}
+\newcommand{\abs}[1]{\left\lvert#1\right\rvert}
+
+% Сюда добавляем новые обозначения по мере появления в тексте,
+% чтобы система обозначений оставалась сквозной (CONVENTIONS.md §4).
+
+% --- Титульный лист: поля, которых нет в исходном шаблоне ---
+% Шаблон mipt-thesis-ms (физтех-школа ФПФЭ) задаёт факультет/кафедру/
+% специальность жёстко в \titlepage. Здесь определяем \faculty и
+% \department по аналогии с \groupnum и переопределяем \titlepage
+% под реквизиты ФПМИ, без правок самого .cls (CONVENTIONS.md §1).
+\newcommand{\faculty}[1]{\def\mtfacultytext{#1}}
+\newcommand{\department}[1]{\def\mtdepartmenttext{#1}}
+
+\renewcommand{\titlepage}{%
+    \pagestyle{empty}
+    \begin{center}
+        {\bf Министерство образования и науки Российской Федерации \\
+        Московский физико-технический институт (национальный
+        исследовательский университет) \\ }
+        \vspace{1cm}
+
+        \mtfacultytext{} \\
+        \mtdepartmenttext{} \\
+
+        \vspace{3em}
+
+        Выпускная квалификационная работа магистра по направлению 09.04.01
+        <<Прикладная математика и информатика>>
+    \end{center}
+
+    \begin{center}
+        \vspace{\fill}
+        \singlespacing
+
+        \LARGE \mttitletext{}
+
+        \vspace{\fill}
+    \end{center}
+
+    \begin{flushright}
+        Студент \mtgroupnumtext{} группы \\
+        \mtauthortext{} \\
+        \vspace{3em}
+        Научный руководитель \\
+        \mtsupervisortext{} \\
+        \vspace{3em}
+        Рецензент \\
+        \mtrefereetext{} \\
+    \end{flushright}
+
+    \vspace{6em}
+
+    \begin{center}
+        Долгопрудный \\
+        \the\year{}
+    \end{center}
+}
